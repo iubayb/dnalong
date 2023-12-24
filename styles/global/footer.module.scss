@@ -1,0 +1,35 @@
+.footer {
+    background-color: #430F47;
+    padding: 33px 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+
+    @media(max-width: 1200px) {
+        padding: 25px 20px;
+    }
+
+    @media(max-width: 768px) {
+        flex-direction: column-reverse;
+    }
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    p {
+        color: #FCFCFC;
+        font-size: 16px;
+        font-weight: 300;
+
+        @media(max-width: 768px) {
+            font-size: 12px;
+        }
+    }
+    .social{
+        display: flex;
+        flex-direction: row;
+        gap: 26px;
+    }
+}
+}

@@ -1,0 +1,50 @@
+.container {
+
+    max-width: 603px;
+    margin: 150px auto;
+    @media(max-width: 768px) {
+        margin: 15px auto;
+    }
+
+    .heading,
+    .tagline,
+    .body {
+        margin: 0;
+        padding: 0 20px;
+        line-height: 125%;
+    }
+
+    .heading {
+        color: #37003C;
+        text-align: center;
+        font-size: 55px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        @media(max-width: 768px) {
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+    }
+
+    .tagline {
+        color: #37003C;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 40px;
+        @media(max-width: 768px) {
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+    }
+
+    .body {
+        color: #37003C;
+        text-align: justify;
+        font-size: 18px;
+        font-weight: 300;
+        @media(max-width: 768px) {
+            font-size: 14px;
+        }
+    }
+}
